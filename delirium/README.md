@@ -57,9 +57,27 @@ https://vimeo.com/392331446
 
 ### Run
 
+Quick start (both steps, paths from `.env`):
+
 ```
-runMedTagger-fit-delirium.sh
+cp .env.example .env   # edit INPUT_DIR, OUTPUT_DIR, RULES_DIR, ...
+bash quick_start.sh
 ```
+
+Or run the two steps by hand:
+
+```
+bash run_MedTagger-fit-delirium_step1.sh   # MedTagger -> OUTPUT_DIR/*.ann
+python run_post_processting_step2.py       # CAM rules -> summarized_result.csv, MedTator .xml
+```
+
+| Item | Default | Description |
+| --- | --- | --- |
+| `INPUT_DIR` | `data/input` | Clinical notes, one `.txt` per document |
+| `OUTPUT_DIR` | `data/output` | MedTagger concept output, one `.ann` per note |
+| `RULES_DIR` | `models/ENACT_DELIRIUM` | Rule set: `regexp/`, `rules/`, `context/`, `sectag/` |
+| `MEDTATOR_DIR` | `data/medtator` | `.xml` files for review in MedTator |
+| `RESULT_CSV` | `data/summarized_result.csv` | Per-note tags, CAM criteria and delirium status (1/0) |
 
 ### Refine
 

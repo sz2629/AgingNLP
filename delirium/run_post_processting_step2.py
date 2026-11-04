@@ -67,7 +67,7 @@ def cam_original(cam_list):
     return delirium_status
 
 
-def output_evidence(indir):
+def output_evidence(indir, result_csv="./summarized_result.csv"):
     nlp_patient_norm, nlp_patient_txt, nlp_patient_cam = {}, {}, {}
     nlp_result_txt = glob.glob(indir)
     print("loading finished")
@@ -99,7 +99,7 @@ def output_evidence(indir):
                     nlp_patient_cam[file_name] = []
                 nlp_patient_cam[file_name].append(cam)
 
-    with open("./summarized_result.csv", "w", newline="") as csvfile:
+    with open(result_csv, "w", newline="") as csvfile:
         spamwriter = csv.writer(csvfile, delimiter=",")
         # Add column names
         spamwriter.writerow(
@@ -159,15 +159,20 @@ def create_combined_xml(raw_notes, nlp_output, model_name):
     return xml_str
 
 
-def prepare_medtator_annotation(txt_dir, ann_dir, model_name):
-    txt = glob.glob(txt_dir)
-    nlp = glob.glob(ann_dir)
+def prepare_medtator_annotation(txt_dir, ann_dir, model_name, medtator_dir=None):
+    # txt_dir / ann_dir are folders holding the raw notes (*.txt) and the
+    # MedTagger output (*.ann); medtator_dir defaults to ann_dir with
+    # "output" replaced by "medtator", as in the original layout.
+    if medtator_dir is None:
+        medtator_dir = ann_dir.replace("output", "medtator")
+    nlp = glob.glob(os.path.join(ann_dir, "*.ann"))
     for i in nlp:
         if is_file_size_greater_than_zero(i):
-            raw_notes = read_txt(i.replace(".ann", "").replace("output", "input"))
+            base = os.path.basename(i)[: -len(".ann")]
+            raw_notes = read_txt(os.path.join(txt_dir, base))
             nlp_output = read_txt(i)
             combined_xml = create_combined_xml(raw_notes, nlp_output, model_name)
-            outdir = i.replace(".ann", "").replace("output", "medtator") + ".xml"
+            outdir = os.path.join(medtator_dir, base + ".xml")
             os.makedirs(os.path.dirname(outdir), exist_ok=True)
             print(outdir)
             with open(outdir, "w") as text_file:
@@ -176,12 +181,15 @@ def prepare_medtator_annotation(txt_dir, ann_dir, model_name):
 
 def main():
     # specify MedTagger output folder director
-    MODEL_NAME = "Delirium_schema_1_3"
-    raw_txt_dir = "/delirium/data/input"
-    nlp_ann_dir = "/delirium/data/output"
-    output_evidence(nlp_ann_dir + "/*.ann")
+    # Paths can be overridden with environment variables (see .env.example)
+    MODEL_NAME = os.environ.get("MODEL_NAME", "Delirium_schema_1_3")
+    raw_txt_dir = os.environ.get("INPUT_DIR", "/delirium/data/input")
+    nlp_ann_dir = os.environ.get("OUTPUT_DIR", "/delirium/data/output")
+    medtator_dir = os.environ.get("MEDTATOR_DIR")
+    result_csv = os.environ.get("RESULT_CSV", "./summarized_result.csv")
+    output_evidence(nlp_ann_dir + "/*.ann", result_csv)
     prepare_medtator_annotation(
-        raw_txt_dir + "/*.txt", nlp_ann_dir + "/*.ann", model_name=MODEL_NAME
+        raw_txt_dir, nlp_ann_dir, model_name=MODEL_NAME, medtator_dir=medtator_dir
     )
 
 
