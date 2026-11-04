@@ -15,6 +15,54 @@ This initiative is a collaboration among several leading institutions, including
 
 All related NLP resources can be accessed under the OHNLP consortium, which aims to create an interoperable, scalable, and usable NLP ecosystem.
 
+## Quick Start
+
+```mermaid
+flowchart TD
+    A([Clinical notes<br/>one .txt per document<br/>ID + date in filename]) --> P
+
+    P["Prerequisites<br/>Java 1.8 + MedTaggerIE .jar<br/>(Python for ML / FL steps)"] --> C{Choose a module}
+
+    C --> D[delirium/]
+    C --> F[fall/]
+    C --> S[functional_status/]
+    C --> T[cognitive-behavioral<br/>symptom taxonomy/]
+
+    %% Delirium
+    D --> D1["Set INPUT_DIR, OUTPUT_DIR, RULES_DIR<br/>in run_MedTagger-fit-delirium_step1.sh"]
+    D1 --> D2["Step 1: bash run_MedTagger-fit-delirium_step1.sh<br/>MedTagger extracts CAM concepts"]
+    D2 --> D3["Step 2: python run_post_processting_step2.py<br/>map concepts to CAM A-D, apply CAM / mCAM"]
+    D3 --> D4([summarized_result.csv<br/>delirium status per patient])
+
+    %% Fall
+    F --> F0{Approach}
+    F0 -->|Rule-based| FR1["Set dirs in rule/runMedTagger-fit-rule.sh"]
+    FR1 --> FR2["bash rule/runMedTagger-fit-rule.sh"]
+    F0 -->|Hybrid| FH1["python bert/main.py -train<br/>training.txt: docid | sentence | label"]
+    FH1 --> FH2["python bert/main.py -reload<br/>sentence-level predictions"]
+    FH2 --> FH3["bash hybrid/runMedTagger-fit-hybrid.sh<br/>summarization engine"]
+    FR2 --> FO([Fall occurrence per document])
+    FH3 --> FO
+
+    %% Functional status
+    S --> S0{Setting}
+    S0 -->|Single site| S1["MedTaggerIE rules: MCI_ADL_Single/<br/>+ BERT: python task2_single.py"]
+    S0 -->|Federated| S2["MedTaggerIE rules: MCI_ADL_FL/<br/>+ Flower: Fedavg/ or DF/ server.py,<br/>clientN.py at each site"]
+    S1 --> SO([bADL / iADL functional status])
+    S2 --> SO
+
+    %% Taxonomy
+    T --> T1["Load CBSx.owl / CBSx.obo<br/>in Protégé or an OBO parser"]
+    T1 --> TO([258 CBSx concepts, 4 branches])
+
+    D4 --> R
+    FO --> R
+    SO --> R
+    R["Refine locally: chart review,<br/>keyword tuning, section detection"]
+```
+
+See each module's README for full configuration details.
+
 
 
 ## Reference
