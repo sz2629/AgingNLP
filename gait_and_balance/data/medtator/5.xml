@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Age_Tech>
+<TEXT><![CDATA[Nursing note: patient found ambulating without assistance against orders. Mild unsteadiness when standing.
+]]></TEXT>
+<TAGS>
+<gait_and_balance id="GB0" spans="79~91" text="unsteadiness" feature="balance_impairment" certainty="possible" status="present" experiencer="patient" exclusion="no" comment="NLP:Balance_impairment" />
+</TAGS>
+<META/>
+</Age_Tech>

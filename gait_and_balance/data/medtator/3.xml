@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Age_Tech>
+<TEXT><![CDATA[PT evaluation: shuffling gait noted, reduced balance on single-leg stance. Recommend continued use of cane.
+]]></TEXT>
+<TAGS>
+<gait_and_balance id="GB0" spans="15~29" text="shuffling gait" feature="gait_abnormality" certainty="positive" status="present" experiencer="patient" exclusion="no" comment="NLP:Gait_abnormality" />
+<gait_and_balance id="GB1" spans="37~52" text="reduced balance" feature="balance_impairment" certainty="positive" status="present" experiencer="patient" exclusion="no" comment="NLP:Balance_impairment" />
+<functional_status id="FS0" spans="102~106" text="cane" feature="assistive_device_use" certainty="positive" status="present" experiencer="patient" exclusion="no" comment="NLP:Assistive_device" />
+</TAGS>
+<META/>
+</Age_Tech>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Age_Tech>
+<TEXT><![CDATA[82 y/o F seen after near-fall at home. Exam notable for unsteady gait and wide-based gait. Reports loss of balance when turning. Daughter notes she keeps walking without her walker at night.
+]]></TEXT>
+<TAGS>
+<gait_and_balance id="GB0" spans="56~69" text="unsteady gait" feature="gait_abnormality" certainty="positive" status="present" experiencer="patient" exclusion="no" comment="NLP:Gait_abnormality" />
+<gait_and_balance id="GB1" spans="74~89" text="wide-based gait" feature="gait_abnormality" certainty="positive" status="present" experiencer="patient" exclusion="no" comment="NLP:Gait_abnormality" />
+<gait_and_balance id="GB2" spans="99~114" text="loss of balance" feature="balance_impairment" certainty="positive" status="present" experiencer="patient" exclusion="no" comment="NLP:Balance_impairment" />
+<functional_status id="FS0" spans="174~180" text="walker" feature="assistive_device_use" certainty="negated" status="present" experiencer="patient" exclusion="no" comment="NLP:Assistive_device" />
+</TAGS>
+<META/>
+</Age_Tech>
