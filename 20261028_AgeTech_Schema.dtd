@@ -1,0 +1,117 @@
+<!ENTITY name "Age_Tech">
+
+<!-- Each tag is a feature class. The specific feature is chosen with the
+     "feature" attribute (like certainty and status). All attributes are
+     required and have no default, so the annotator must set each one on
+     every annotation. In MedTator, type a class name in the tag Filter box,
+     or use the feature drop-down on a tag to pick the specific feature.
+     Context attributes follow the Annotation Guideline, Section 3. -->
+
+<!-- ===== Goals of Care and Care Planning ===== -->
+<!ELEMENT goals_of_care_and_care_planning ( #PCDATA ) >
+<!ATTLIST goals_of_care_and_care_planning feature ( goals_of_care | limitation_of_lst | hospice | palliative_care ) #REQUIRED >
+<!ATTLIST goals_of_care_and_care_planning certainty ( negated|possible|hypothetical|positive ) #REQUIRED >
+<!ATTLIST goals_of_care_and_care_planning status ( present|history ) #REQUIRED >
+<!ATTLIST goals_of_care_and_care_planning experiencer ( patient|other ) #REQUIRED >
+<!ATTLIST goals_of_care_and_care_planning exclusion ( yes|no ) #REQUIRED >
+<!ATTLIST goals_of_care_and_care_planning comment CDATA #IMPLIED "" >
+<!-- ===== Fall History ===== -->
+<!ELEMENT fall_history ( #PCDATA ) >
+<!ATTLIST fall_history feature ( falls | recurrent_falls | fall_injury | fear_of_falling | near_fall | fall_prevention_education ) #REQUIRED >
+<!ATTLIST fall_history certainty ( negated|possible|hypothetical|positive ) #REQUIRED >
+<!ATTLIST fall_history status ( present|history ) #REQUIRED >
+<!ATTLIST fall_history experiencer ( patient|other ) #REQUIRED >
+<!ATTLIST fall_history exclusion ( yes|no ) #REQUIRED >
+<!ATTLIST fall_history comment CDATA #IMPLIED "" >
+<!-- ===== Functional Status ===== -->
+<!ELEMENT functional_status ( #PCDATA ) >
+<!ATTLIST functional_status feature ( physical_activity | activities_of_daily_living | bathing | dressing | transferring | continence | toileting | feeding | using_transportation | shopping | meal_preparation | housekeeping | laundry | medication_management | financial_management | assistive_device_use | home_safety_concern ) #REQUIRED >
+<!ATTLIST functional_status certainty ( negated|possible|hypothetical|positive ) #REQUIRED >
+<!ATTLIST functional_status status ( present|history ) #REQUIRED >
+<!ATTLIST functional_status experiencer ( patient|other ) #REQUIRED >
+<!ATTLIST functional_status exclusion ( yes|no ) #REQUIRED >
+<!ATTLIST functional_status comment CDATA #IMPLIED "" >
+<!-- ===== Gait and Balance ===== -->
+<!-- CHANGED 10/14/2026: comment made optional, matching all other classes -->
+<!ELEMENT gait_and_balance ( #PCDATA ) >
+<!ATTLIST gait_and_balance feature ( gait_abnormality | balance_impairment | unsafe_ambulation ) #REQUIRED >
+<!ATTLIST gait_and_balance certainty ( negated|possible|hypothetical|positive ) #REQUIRED >
+<!ATTLIST gait_and_balance status ( present|history ) #REQUIRED >
+<!ATTLIST gait_and_balance experiencer ( patient|other ) #REQUIRED >
+<!ATTLIST gait_and_balance exclusion ( yes|no ) #REQUIRED >
+<!ATTLIST gait_and_balance comment CDATA #IMPLIED "" >
+<!-- ===== Musculoskeletal ===== -->
+<!ELEMENT musculoskeletal ( #PCDATA ) >
+<!ATTLIST musculoskeletal feature ( frailty | weakness ) #REQUIRED >
+<!ATTLIST musculoskeletal certainty ( negated|possible|hypothetical|positive ) #REQUIRED >
+<!ATTLIST musculoskeletal status ( present|history ) #REQUIRED >
+<!ATTLIST musculoskeletal experiencer ( patient|other ) #REQUIRED >
+<!ATTLIST musculoskeletal exclusion ( yes|no ) #REQUIRED >
+<!ATTLIST musculoskeletal comment CDATA #IMPLIED "" >
+<!-- ===== Sensory ===== -->
+<!-- CHANGED 10/14/2026: numbness_neuropathy added -->
+<!ELEMENT sensory ( #PCDATA ) >
+<!ATTLIST sensory feature ( vision_impairment | hearing_impairment | numbness_neuropathy ) #REQUIRED >
+<!ATTLIST sensory certainty ( negated|possible|hypothetical|positive ) #REQUIRED >
+<!ATTLIST sensory status ( present|history ) #REQUIRED >
+<!ATTLIST sensory experiencer ( patient|other ) #REQUIRED >
+<!ATTLIST sensory exclusion ( yes|no ) #REQUIRED >
+<!ATTLIST sensory comment CDATA #IMPLIED "" >
+<!-- ===== Cardiovascular ===== -->
+<!ELEMENT cardiovascular ( #PCDATA ) >
+<!ATTLIST cardiovascular feature ( dizziness ) #REQUIRED >
+<!ATTLIST cardiovascular certainty ( negated|possible|hypothetical|positive ) #REQUIRED >
+<!ATTLIST cardiovascular status ( present|history ) #REQUIRED >
+<!ATTLIST cardiovascular experiencer ( patient|other ) #REQUIRED >
+<!ATTLIST cardiovascular exclusion ( yes|no ) #REQUIRED >
+<!ATTLIST cardiovascular comment CDATA #IMPLIED "" >
+<!-- ===== Cognitive and Behavioral Status ===== -->
+<!-- CHANGED 10/14/2026: stroke_sequelae removed; speech_difficulty added -->
+<!ELEMENT cognitive_and_behavioral_status ( #PCDATA ) >
+<!ATTLIST cognitive_and_behavioral_status feature ( delirium | agitation | altered_mental_status | confusion | disconnected | disorganized_thinking | disorientation | encephalopathy | fluctuation_in_mental_status | hallucination | inattention | reorientation | cognitive_impairment | dementia | speech_difficulty | seizure_disorder ) #REQUIRED >
+<!ATTLIST cognitive_and_behavioral_status certainty ( negated|possible|hypothetical|positive ) #REQUIRED >
+<!ATTLIST cognitive_and_behavioral_status status ( present|history ) #REQUIRED >
+<!ATTLIST cognitive_and_behavioral_status experiencer ( patient|other ) #REQUIRED >
+<!ATTLIST cognitive_and_behavioral_status exclusion ( yes|no ) #REQUIRED >
+<!ATTLIST cognitive_and_behavioral_status comment CDATA #IMPLIED "" >
+<!-- ===== Mental Health ===== -->
+<!ELEMENT mental_health ( #PCDATA ) >
+<!ATTLIST mental_health feature ( anxiety | depression | sleep_disturbance | sleep_apnea ) #REQUIRED >
+<!ATTLIST mental_health certainty ( negated|possible|hypothetical|positive ) #REQUIRED >
+<!ATTLIST mental_health status ( present|history ) #REQUIRED >
+<!ATTLIST mental_health experiencer ( patient|other ) #REQUIRED >
+<!ATTLIST mental_health exclusion ( yes|no ) #REQUIRED >
+<!ATTLIST mental_health comment CDATA #IMPLIED "" >
+<!-- ===== Social Determinants of Health ===== -->
+<!ELEMENT social_determinants_of_health ( #PCDATA ) >
+<!ATTLIST social_determinants_of_health feature ( financial_strain | food_insecurity | housing_insecurity | transportation_barrier ) #REQUIRED >
+<!ATTLIST social_determinants_of_health certainty ( negated|possible|hypothetical|positive ) #REQUIRED >
+<!ATTLIST social_determinants_of_health status ( present|history ) #REQUIRED >
+<!ATTLIST social_determinants_of_health experiencer ( patient|other ) #REQUIRED >
+<!ATTLIST social_determinants_of_health exclusion ( yes|no ) #REQUIRED >
+<!ATTLIST social_determinants_of_health comment CDATA #IMPLIED "" >
+<!-- ===== Social Support ===== -->
+<!ELEMENT social_support ( #PCDATA ) >
+<!ATTLIST social_support feature ( social_family_support | social_isolation | caregiver_burden | living_alone ) #REQUIRED >
+<!ATTLIST social_support certainty ( negated|possible|hypothetical|positive ) #REQUIRED >
+<!ATTLIST social_support status ( present|history ) #REQUIRED >
+<!ATTLIST social_support experiencer ( patient|other ) #REQUIRED >
+<!ATTLIST social_support exclusion ( yes|no ) #REQUIRED >
+<!ATTLIST social_support comment CDATA #IMPLIED "" >
+<!-- ===== Laboratory and Nutrition ===== -->
+<!ELEMENT laboratory_and_nutrition ( #PCDATA ) >
+<!ATTLIST laboratory_and_nutrition feature ( malnutrition ) #REQUIRED >
+<!ATTLIST laboratory_and_nutrition certainty ( negated|possible|hypothetical|positive ) #REQUIRED >
+<!ATTLIST laboratory_and_nutrition status ( present|history ) #REQUIRED >
+<!ATTLIST laboratory_and_nutrition experiencer ( patient|other ) #REQUIRED >
+<!ATTLIST laboratory_and_nutrition exclusion ( yes|no ) #REQUIRED >
+<!ATTLIST laboratory_and_nutrition comment CDATA #IMPLIED "" >
+<!-- ===== Medications ===== -->
+<!-- CHANGED 10/14/2026: new_medication_started removed; deprescribing_discussion excludes temporary holds for a procedure -->
+<!ELEMENT medications ( #PCDATA ) >
+<!ATTLIST medications feature ( medication_reconciliation_concern | deprescribing_discussion ) #REQUIRED >
+<!ATTLIST medications certainty ( negated|possible|hypothetical|positive ) #REQUIRED >
+<!ATTLIST medications status ( present|history ) #REQUIRED >
+<!ATTLIST medications experiencer ( patient|other ) #REQUIRED >
+<!ATTLIST medications exclusion ( yes|no ) #REQUIRED >
+<!ATTLIST medications comment CDATA #IMPLIED "" >
