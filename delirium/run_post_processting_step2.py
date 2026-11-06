@@ -177,8 +177,8 @@ def prepare_medtator_annotation(txt_dir, ann_dir, model_name):
 def main():
     # specify MedTagger output folder director
     MODEL_NAME = "Delirium_schema_1_3"
-    raw_txt_dir = "/delirium/data/input"
-    nlp_ann_dir = "/delirium/data/output"
+    raw_txt_dir = "data/input"
+    nlp_ann_dir = "data/output"
     output_evidence(nlp_ann_dir + "/*.ann")
     prepare_medtator_annotation(
         raw_txt_dir + "/*.txt", nlp_ann_dir + "/*.ann", model_name=MODEL_NAME
