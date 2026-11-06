@@ -1,0 +1,30 @@
+poor balance
+impaired balance
+balance impairment
+balance problem
+balance problems
+balance issue
+balance issues
+balance difficulty
+balance difficulties
+balance disorder
+balance disturbance
+difficulty with balance
+problems with balance
+trouble with balance
+decreased balance
+reduced balance
+loss of balance
+lost (his |her |their )?balance
+loses (his |her |their )?balance
+off balance
+imbalance
+unsteadiness
+unsteady
+unsteady on (his |her |their )?feet
+postural instability
+postural imbalance
+disequilibrium
+positive romberg
+romberg (sign )?(is |was )?positive
+balance (is |was )?(\S+\s+){0,2}(poor|impaired|unsteady|decreased|reduced|off)

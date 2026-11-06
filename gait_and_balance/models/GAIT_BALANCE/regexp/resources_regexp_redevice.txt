@@ -1,0 +1,22 @@
+walker
+front[- ]wheeled walker
+four[- ]wheeled walker
+rolling walker
+wheeled walker
+FWW
+rollator
+cane
+quad cane
+single[- ]point cane
+walking stick
+crutch
+crutches
+wheelchair
+wheelchair[- ]bound
+uses a walker
+uses a cane
+ambulates with (a )?(walker|cane|rollator|assistance|assist)
+walks with (a )?(walker|cane|rollator|assistance|assist)
+assistive device
+gait aid
+mobility aid

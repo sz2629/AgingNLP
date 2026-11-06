@@ -1,0 +1,3 @@
+Clinic Visit
+Patient is a 72 year old male here for annual exam. Neuro: gait is normal, balance is intact, negative Romberg. Ambulates independently without assistive device.
+Family history: mother used a cane.

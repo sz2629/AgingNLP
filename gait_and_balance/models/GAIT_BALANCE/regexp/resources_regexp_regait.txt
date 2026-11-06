@@ -1,0 +1,50 @@
+abnormal gait
+gait abnormality
+gait abnormalities
+gait disturbance
+gait disturbances
+gait disorder
+gait dysfunction
+gait impairment
+impaired gait
+gait instability
+unstable gait
+unsteady gait
+gait unsteadiness
+gait difficulty
+gait difficulties
+difficulty with gait
+difficulty walking
+difficulty with walking
+difficulty ambulating
+trouble walking
+problems walking
+problems with walking
+unable to walk
+unable to ambulate
+inability to walk
+shuffling gait
+shuffling
+shuffles
+antalgic gait
+ataxic gait
+broad[- ]based gait
+wide[- ]based gait
+spastic gait
+festinating gait
+magnetic gait
+apraxic gait
+steppage gait
+slow gait
+slowed gait
+slow walking
+slow gait speed
+decreased gait speed
+reduced gait speed
+short stride
+shortened stride
+decreased stride length
+reduced stride length
+gait (is |was )?(\S+\s+){0,2}(abnormal|unsteady|impaired|antalgic|ataxic|shuffling|wide[- ]based|broad[- ]based|slow|slowed)
+walks with a limp
+limping

@@ -1,0 +1,15 @@
+normal gait
+gait (is |was )?normal
+steady gait
+gait (is |was )?steady
+stable gait
+gait (is |was )?stable
+gait (is |was )?(within normal limits|WNL|intact)
+ambulates independently
+walks independently
+ambulating independently
+normal balance
+balance (is |was )?(normal|intact|good|steady)
+good balance
+negative romberg
+romberg (sign )?(is |was )?negative

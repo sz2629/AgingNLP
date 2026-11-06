@@ -1,0 +1,7 @@
+RULENAME="cm_r_gb_gait",REGEXP="\b(?:%regait)\b",LOCATION="",NORM="Gait_Abnormality"
+RULENAME="cm_r_gb_balance",REGEXP="\b(?:%rebalance)\b",LOCATION="",NORM="Balance_Impairment"
+RULENAME="cm_r_gb_ataxia",REGEXP="\b(?:%reataxia)\b",LOCATION="",NORM="Ataxia"
+RULENAME="cm_r_gb_device",REGEXP="\b(?:%redevice)\b",LOCATION="",NORM="Assistive_Device"
+RULENAME="cm_r_gb_fallrisk",REGEXP="\b(?:%refallrisk)\b",LOCATION="",NORM="Fall_Risk"
+RULENAME="cm_r_gb_assess",REGEXP="\b(?:%reassessment)\b",LOCATION="",NORM="Gait_Balance_Assessment"
+RULENAME="cm_r_gb_normal",REGEXP="\b(?:%renormalgait)\b",LOCATION="",NORM="Normal_Gait_Balance"

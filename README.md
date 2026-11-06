@@ -37,6 +37,9 @@ Fu S, Thorsteinsdottir B, Zhang X, Lopes GS, Pagali SR, LeBrasseur NK, Wen A, Li
 https://doi.org/10.1016/j.ijmedinf.2022.104736
 
 
+### Gait and Balance
+Rule-based gait and balance extraction (MedTaggerIE); see [gait_and_balance](gait_and_balance/README.md). Not yet validated.
+
 ### Functional Status
 Fu S, Jia H, Vassilaki M, Keloth VK, Dang Y, Zhou Y, Garg M, Petersen RC, St Sauver J, Moon S, Wang L. FedFSA: Hybrid and federated framework for functional status ascertainment across institutions. Journal of Biomedical Informatics. 2024 Apr 1;152:104623.
 https://doi.org/10.1016/j.jbi.2024.104623
