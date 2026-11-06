@@ -1,0 +1,4 @@
+RULENAME="cm_gait_abn",REGEXP="\b(?:%regaitabnormality)\b",LOCATION="",NORM="Gait_abnormality"
+RULENAME="cm_bal_imp",REGEXP="\b(?:%rebalanceimpairment)\b",LOCATION="",NORM="Balance_impairment"
+RULENAME="cm_asst_dev",REGEXP="\b(?:%reassistivedevice)\b",LOCATION="",NORM="Assistive_device"
+RULENAME="cm_gait_nml",REGEXP="\b(?:%renormalgait)\b",LOCATION="",NORM="Normal_gait"

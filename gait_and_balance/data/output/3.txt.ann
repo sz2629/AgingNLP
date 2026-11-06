@@ -1,0 +1,3 @@
+3.txt		CM	text="shuffling gait"	start="15"	end="29"	certainty="Positive"	status="Present"	experiencer="Patient"	norm="Gait_abnormality"	semG="null"	section="DocBegin"	sentid="DocBegin:0"	sentence="PT evaluation: shuffling gait noted, reduced balance on single-leg stance."
+3.txt		CM	text="reduced balance"	start="37"	end="52"	certainty="Positive"	status="Present"	experiencer="Patient"	norm="Balance_impairment"	semG="null"	section="DocBegin"	sentid="DocBegin:0"	sentence="PT evaluation: shuffling gait noted, reduced balance on single-leg stance."
+3.txt		CM	text="cane"	start="102"	end="106"	certainty="Positive"	status="Present"	experiencer="Patient"	norm="Assistive_device"	semG="null"	section="DocBegin"	sentid="DocBegin:1"	sentence="Recommend continued use of cane."

@@ -1,0 +1,6 @@
+unsteady gait
+shuffling gait
+wide-based gait
+wide based gait
+slow gait
+(unsteady|shuffling|wide[- ]based|slow(ed)?|abnormal)\s+(gait|walk(ing)?)
