@@ -20,8 +20,25 @@ file to its NORM. Negation / certainty / experiencer are handled by `context/con
 
 ```
 bash run_MedTagger-fit-gait_and_balance_step1.sh            # ../notes -> data/output/*.ann
-python run_post_processing_step2.py                          # -> data/summarized_result.csv
+python run_post_processing_step2.py                          # -> data/summarized_result.csv + data/medtator/*.xml
 ```
 
 Pass other folders with `bash run_MedTagger-fit-gait_and_balance_step1.sh INPUT_DIR OUTPUT_DIR`.
 `Gait_Balance_Problem` = 1 when a Positive, Patient-experienced Gait_abnormality or Balance_impairment is found.
+
+## MedTator export
+
+Step 2 also writes one MedTator XML per note to `data/medtator/`, using the AgeTech schema
+(`../20261028_AgeTech_Schema.dtd`). In MedTator, load that DTD, then load the XML files.
+
+| NORM | Schema tag | `feature` |
+| --- | --- | --- |
+| Gait_abnormality | `gait_and_balance` | `gait_abnormality` |
+| Balance_impairment | `gait_and_balance` | `balance_impairment` |
+| Assistive_device | `functional_status` | `assistive_device_use` |
+| Normal_gait | `gait_and_balance` | `gait_abnormality` with `certainty=negated` |
+
+`certainty`, `status` and `experiencer` come from MedTagger's context output and are lowercased to the
+schema values. `exclusion` is set to `no` for every tag, and `comment` records the original NORM
+(for example `NLP:Gait_abnormality`). The export includes every mention, not only the Positive/Patient
+ones counted in the CSV, so reviewers can check the negated and possible mentions too.

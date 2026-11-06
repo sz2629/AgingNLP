@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Age_Tech>
+<TEXT><![CDATA[Annual wellness visit. Patient denies falls. Gait normal. Discussed vaccines and diet.
+]]></TEXT>
+<TAGS>
+<gait_and_balance id="GB0" spans="45~56" text="Gait normal" feature="gait_abnormality" certainty="negated" status="present" experiencer="patient" exclusion="no" comment="NLP:Normal_gait" />
+</TAGS>
+<META/>
+</Age_Tech>
