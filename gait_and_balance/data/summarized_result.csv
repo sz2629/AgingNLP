@@ -1,0 +1,21 @@
+FileName,Gait_abnormality,Balance_impairment,Assistive_device,Normal_gait,Gait_Balance_Problem,Texts
+1.txt,1,1,0,0,1,Gait_abnormality:unsteady gait; Gait_abnormality:wide-based gait; Balance_impairment:loss of balance
+2.txt,0,0,0,0,0,
+3.txt,1,1,1,0,1,Gait_abnormality:shuffling gait; Balance_impairment:reduced balance; Assistive_device:cane
+4.txt,0,0,0,1,0,Normal_gait:Gait normal
+5.txt,0,0,0,0,0,
+6.txt,0,0,0,0,0,
+7.txt,0,0,0,0,0,
+8.txt,0,0,0,0,0,
+9.txt,0,0,0,0,0,
+10.txt,0,0,0,0,0,
+11.txt,0,0,0,0,0,
+12.txt,0,0,0,0,0,
+13.txt,0,0,0,0,0,
+14.txt,0,0,0,0,0,
+15.txt,0,0,0,0,0,
+16.txt,0,0,0,0,0,
+17.txt,0,0,0,0,0,
+18.txt,0,0,0,0,0,
+19.txt,0,0,0,0,0,
+20.txt,0,0,0,0,0,

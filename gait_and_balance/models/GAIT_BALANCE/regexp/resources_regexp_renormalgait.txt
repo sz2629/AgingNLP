@@ -1,0 +1,2 @@
+gait (is )?(normal|steady|stable)
+(normal|steady|stable) gait
