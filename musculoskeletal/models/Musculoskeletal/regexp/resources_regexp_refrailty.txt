@@ -1,0 +1,11 @@
+frail
+frailty
+frail elderly
+frailty syndrome
+pre-?frail(ty)?
+(clinical )?frailty scale( score)?( of| is|:)? ?[5-9]
+cfs( score)?( of| is|:)? ?[5-9]
+(reports|endorses|complains of|with|has|generalized|significant|marked|chronic|reported) exhaustion
+exhaustion
+(low|decreased|reduced|minimal|poor) (physical )?activity( level)?
+(feels|feeling|appears) (exhausted|worn out)

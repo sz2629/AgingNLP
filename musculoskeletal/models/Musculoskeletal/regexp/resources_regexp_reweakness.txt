@@ -1,0 +1,11 @@
+weakness
+(generalized|generalised|global|diffuse|proximal|distal|muscle|muscular|leg|arm|extremity|lower extremity|upper extremity|bilateral|hip|quadriceps) weakness
+(feels?|feeling|felt|is|appears|getting|generally) weak
+weak (legs?|arms?|muscles?|lower extremities|upper extremities)
+(decreased|reduced|diminished|poor|impaired|low) (muscle |grip )?strength
+(strength|motor strength|grip strength)( is)?( graded)? [0-4][+-]?/5
+[0-4][+-]?/5 (strength|motor strength)
+(legs?|lower extremities) (feels?|feeling|felt) (heavy|like lead)
+heavy (legs?|feeling in (her|his|their|the|both) legs)
+heaviness (in|of) (her|his|their|the|both) (legs?|lower extremities)
+(trouble|difficulty|unable|hard time) (lifting|raising) (her|his|their|the|both) legs?
