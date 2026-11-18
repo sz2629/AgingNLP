@@ -6,7 +6,7 @@ cd "$(dirname "$0")"
 
 INPUT_DIR="${1:-notes}"
 OUT_ROOT="${2:-results}"
-JAR="delirium/MedTagger-fit-context.jar"
+JAR="MedTagger-fit-context.jar"
 
 find . -type d -name rules -not -path "./.git/*" | sort | while read -r R; do
   RULES="$(dirname "$R")"
