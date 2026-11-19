@@ -1,0 +1,5 @@
+./context/contextRule.txt
+./posthoc_settings.json
+./regexp/resources_regexp_refrailty.txt
+./regexp/resources_regexp_reweakness.txt
+./rules/resources_rules_matchrules.txt

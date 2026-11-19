@@ -1,0 +1,2 @@
+RULENAME="cm_frailty",REGEXP="\b(?:%refrailty)\b",LOCATION="",NORM="Frailty"
+RULENAME="cm_weakness",REGEXP="\b(?:%reweakness)\b",LOCATION="",NORM="Weakness"
