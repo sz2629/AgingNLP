@@ -1,0 +1,1 @@
+RULENAME="cm_medication_reconciliation_concern",REGEXP="\b(?:%remedreconconcern)\b",LOCATION="",NORM="Medication_reconciliation_concern"

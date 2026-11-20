@@ -1,0 +1,6 @@
+./context/contextRule.txt
+./posthoc_settings.json
+./regexp/resources_regexp_revisionimpairment.txt
+./regexp/resources_regexp_rehearingimpairment.txt
+./regexp/resources_regexp_renumbnessneuropathy.txt
+./rules/resources_rules_matchrules.txt

@@ -1,0 +1,1 @@
+RULENAME="cm_dizziness",REGEXP="\b(?:%redizziness)\b",LOCATION="",NORM="Dizziness"

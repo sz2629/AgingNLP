@@ -1,0 +1,1 @@
+RULENAME="cm_deprescribing_discussion",REGEXP="\b(?:%redeprescribing)\b",LOCATION="",NORM="Deprescribing_discussion"

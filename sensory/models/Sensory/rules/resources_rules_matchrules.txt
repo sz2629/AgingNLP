@@ -1,0 +1,3 @@
+RULENAME="cm_vision_impairment",REGEXP="\b(?:%revisionimpairment)\b",LOCATION="",NORM="Vision_impairment"
+RULENAME="cm_hearing_impairment",REGEXP="\b(?:%rehearingimpairment)\b",LOCATION="",NORM="Hearing_impairment"
+RULENAME="cm_numbness_neuropathy",REGEXP="\b(?:%renumbnessneuropathy)\b",LOCATION="",NORM="Numbness_neuropathy"

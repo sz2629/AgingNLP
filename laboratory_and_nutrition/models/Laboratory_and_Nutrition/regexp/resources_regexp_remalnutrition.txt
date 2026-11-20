@@ -1,0 +1,16 @@
+(severe |moderate |mild |protein[- ]calorie |protein[- ]energy |chronic |acute )?malnutrition
+malnourished
+under[- ]?nutrition
+under[- ]?nourished
+cachexi(a|c)
+cachectic
+failure to thrive
+(unintentional|unintended|unexplained|involuntary|unplanned|significant|progressive) weight loss
+(lost|loss of|losing|down) \d+(\.\d+)? ?(lbs?|pounds|kg|kilograms|%)
+(poor|decreased|reduced|low|inadequate|minimal|diminished) (oral |po |p\.o\. |nutritional |caloric |food )?intake
+(poor|decreased|reduced|diminished) appetite
+loss of appetite
+(temporal|muscle|muscular|interosseous) wasting
+bmi( of| is|\:)? ?(1[0-7](\.\d+)?|18(\.[0-4]\d*)?)
+albumin( of| is|\:)? ?([0-2]\.\d+|3\.[0-4]\d*)
+(mna|mini nutritional assessment)( score)?( of| is|\:)? ?([0-9]|1[01])(\.\d)?

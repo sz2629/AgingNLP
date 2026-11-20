@@ -1,0 +1,14 @@
+numb(ness)?
+tingl(e|es|ing|y)
+pins and needles
+paresth?esias?
+dysesth?esias?
+burning (feet|hands|toes|soles|pain in (her|his|their|the|both) (feet|hands|legs))
+(feet|hands|toes) (are )?burning
+(peripheral|diabetic|sensory|sensorimotor|motor|alcoholic|chemotherapy[- ]induced|idiopathic|small[- ]fiber|large[- ]fiber|length[- ]dependent|axonal|demyelinating)? ?(poly)?neuropathy
+(peripheral |diabetic )?neuropathic (pain|symptoms)
+(decreased|diminished|reduced|absent|impaired|loss of|lost|abnormal|altered|poor) (vibration|vibratory|light touch|pinprick|pin prick|temperature|protective|monofilament|position|joint position)( sense| sensation)?
+(decreased|diminished|reduced|absent|impaired|loss of|lost|abnormal|altered|poor) (sensation|proprioception|sensory)
+insensate
+stocking[- ]glove( distribution)?( sensory)?( loss)?
+(unable to feel|cannot feel|can't feel) (the )?(monofilament|vibration|(her|his|their|the) (feet|toes|hands))

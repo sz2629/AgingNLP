@@ -1,0 +1,16 @@
+(visual|vision) (impairment|impaired|loss|deficits?|disturbance|changes)
+visually impaired
+(low|poor|decreased|diminished|reduced|impaired|limited|failing|worsening|blurr?y|blurred|cloudy|double) vision
+loss of (vision|sight)
+diplopia
+(legally |partially )?blind(ness)?
+(age[- ]related |wet |dry )?macular degeneration
+(armd|amd)
+cataracts?
+glaucoma
+(diabetic |proliferative |nonproliferative )?retinopathy
+hemianopsia|hemianopia|visual field (deficit|defect|loss|cut)
+(visual acuity|vision|va)( of| is|\:)? ?20/([5-9]\d|[1-9]\d{2,})
+(trouble|difficulty|difficulties|unable to|problems?|hard time) (reading|seeing|see)
+(cannot|can't|can not) (see|read) (well|clearly|the|small|print|labels)
+(magnifier|magnifying glass|large[- ]print|white cane|visual aids?)

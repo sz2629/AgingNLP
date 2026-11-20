@@ -1,0 +1,14 @@
+dizz(y|iness)
+light[- ]?headed(ness)?
+woozy|wooziness
+(positional |peripheral |central )?vertigo
+(benign paroxysmal positional vertigo|bppv)
+(room|world|head|everything) (is |was |keeps )?spinning
+spinning (sensation|feeling)
+(feels?|feeling|felt|became|becomes|gets?|getting) (faint|woozy|dizzy|lightheaded|light[- ]headed)
+faintness
+(near|pre)[- ]?syncop(e|al)
+presyncop(e|al)
+symptomatic (orthostatic |postural )?hypotension
+(orthostatic|postural) (symptoms|dizziness|lightheadedness|intolerance)
+(blood pressure|bp) (dropped|drop|fell) with symptoms

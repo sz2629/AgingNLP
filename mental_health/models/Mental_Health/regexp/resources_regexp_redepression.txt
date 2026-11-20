@@ -1,0 +1,14 @@
+depression
+(major |persistent )?depressive (disorder|episode|symptoms)
+mdd
+dysthymi(a|c)
+depressed( mood)?
+low mood
+hopeless(ness)?
+anhedoni(a|c)
+(loss of|lost|decreased|diminished|no) (interest|pleasure) in
+(feels?|feeling|felt) (sad|down|blue|worthless|empty)
+tearful(ness)?
+phq-?9( score)?( of| is|\:)? ?(1\d|2[0-7])
+phq-?2( score)?( of| is|\:)? ?[3-6]
+(gds|geriatric depression scale)(-?15)?( score)?( of| is|\:)? ?([5-9]|1[0-5])

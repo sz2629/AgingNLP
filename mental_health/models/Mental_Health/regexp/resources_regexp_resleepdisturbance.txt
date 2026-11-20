@@ -1,0 +1,10 @@
+insomnia
+sleeplessness
+sleep (disturbances?|disruption|problems?|difficulties|difficulty|disorder|maintenance)
+(disturbed|disrupted|fragmented|interrupted|poor|restless|broken|non-?restorative|unrefreshing) sleep( quality)?
+poor quality sleep
+(difficulty|trouble|problems?|hard time|unable|inability) (falling|staying|getting|going|to fall|to stay|to get) ?(back )?(asleep|to sleep)
+(difficulty|trouble|problems?) sleeping
+(not sleeping|doesn't sleep|does not sleep|cannot sleep|can't sleep|unable to sleep)( well)?
+(wakes|waking|awakens|awakening|wakes up|waking up) (up )?(several|multiple|many|frequently|often|\d+) (times|during the night|at night)
+(frequent|multiple|early morning|nocturnal) (night(time)? )?awakenings?
