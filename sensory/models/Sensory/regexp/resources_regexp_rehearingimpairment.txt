@@ -1,0 +1,11 @@
+(sensorineural |conductive |mixed |bilateral |unilateral |age[- ]related |progressive )?hearing (loss|impairment|impaired|deficits?|difficulty|difficulties)
+(decreased|diminished|reduced|impaired|poor|limited) hearing
+hard of hearing
+hoh
+deaf(ness)?
+presbycusis
+hearing aids?
+cochlear implants?
+(trouble|difficulty|difficulties|problems?|hard time) (hearing|with hearing)
+(cannot|can't|can not|unable to) hear
+(speak|talk) (loudly|louder|slowly) (to|for) (her|him|them|the patient|patient)

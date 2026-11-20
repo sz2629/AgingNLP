@@ -1,0 +1,8 @@
+(obstructive |central |complex |mixed )?sleep apnea( syndrome)?
+osa(hs)?
+sleep[- ]disordered breathing
+(cpap|bipap|apap|bpap)
+(stops|stopped|stop|pauses in|pause in) breathing (during|in|while) (his |her |their )?(sleep|sleeping|the night)
+(witnessed|observed|nocturnal) apneas?
+apneic (episodes|spells|events)
+ahi( of| is|\:)? ?([5-9]|[1-9]\d)(\.\d+)?

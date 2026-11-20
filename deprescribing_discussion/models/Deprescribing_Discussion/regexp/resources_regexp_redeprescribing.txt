@@ -1,0 +1,11 @@
+de-?prescrib(e|ed|es|ing)
+de-?prescriptions?
+(taper|tapered|tapering|wean|weaned|weaning)( (off|down|him off|her off|them off|off of))?
+(discontinue|discontinued|discontinuing|discontinuation)
+d/c'?d
+(stopped|stopping|stop taking|was stopped|were stopped|has stopped|have stopped)(?! (smoking|drinking|breathing|working|driving|eating))
+(reduce|reduced|reducing|decrease|decreased|decreasing|lower|lowered|lowering|cut back|cut down|cutting back)( (the|his|her|their))?( \w+){0,2} (dose|doses|dosage|dosing)
+(dose|dosage) (reduction|reduced|decreased|lowered|was reduced|was decreased|was lowered)
+(cessation|withdrawal|discontinuation) of
+(came|come|taken|take|took) (him |her |them )?off (of )?(the |his |her |their )?(\w+)
+(reduce|reducing|decrease|decreasing|lower|lowering|minimize|minimizing) (the )?(pill burden|polypharmacy|number of (medications|meds|pills))

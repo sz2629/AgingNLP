@@ -1,0 +1,10 @@
+anxiety( disorder)?
+anxious(ness)?
+generalized anxiety disorder
+generalized anxiety
+gad-?7( score)?( of| is|\:)? ?(1\d|2[01])
+panic (attacks?|disorder|episodes?)
+(excessive|constant|persistent|chronic|significant) (worry|worrying|worries|fear|fears|nervousness)
+nervousness
+(feels?|feeling|is|very|appears) (nervous|on edge|keyed up|worried|fearful)
+(worries|worried|worrying) (a lot|constantly|excessively|all the time)

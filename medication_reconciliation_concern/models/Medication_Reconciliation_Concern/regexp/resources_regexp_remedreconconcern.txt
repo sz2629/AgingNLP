@@ -1,0 +1,14 @@
+(medication|med|medicine|drug|dosing|dose|reconciliation|pharmacy|prescription) discrepanc(y|ies)
+discrepanc(y|ies) (between|in|with|on|among) (the |her |his |their )?(\w+ ){0,3}(lists?|medications?|meds|pharmacy|prescriptions?|fill|doses?|dosing|records?|mar)
+(therapeutic |medication |drug )duplications?
+duplicate (bottles|prescriptions|medications?|meds|therapy|therapies|orders|entries)
+(duplicate|duplicated) (\w+ ){0,2}(from|by) (two|2|multiple|different) (prescribers|providers|pharmacies|physicians)
+not (listed )?on (the |her |his |their )?(medication|med|home medication|discharge medication) list
+(missing|omitted) from (the |her |his |their )?(medication|med|discharge|home medication) list
+(never|not) (been )?(filled|picked up)
+(conflicting|inconsistent|mismatched|discrepant) (medication|med|drug) (lists?|records?|information|histories|history)
+(medication|med) lists? (do|does|did) not match
+(unable to|could not|cannot|can't) (fully )?reconcile
+(unclear|unknown|uncertain) (which|what) (medications|meds)
+(medication|med|prescribing|dosing) (errors?|mix-?ups?|confusion)
+(taking|takes|took) (both|two) (\w+ ){0,3}(of the same|duplicate)

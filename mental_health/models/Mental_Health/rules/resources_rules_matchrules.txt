@@ -1,0 +1,4 @@
+RULENAME="cm_anxiety",REGEXP="\b(?:%reanxiety)\b",LOCATION="",NORM="Anxiety"
+RULENAME="cm_depression",REGEXP="\b(?:%redepression)\b",LOCATION="",NORM="Depression"
+RULENAME="cm_sleep_disturbance",REGEXP="\b(?:%resleepdisturbance)\b",LOCATION="",NORM="Sleep_disturbance"
+RULENAME="cm_sleep_apnea",REGEXP="\b(?:%resleepapnea)\b",LOCATION="",NORM="Sleep_apnea"
